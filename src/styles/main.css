@@ -42,3 +42,23 @@ header .column span{
     cursor: pointer;
     position: relative;
 }
+
+.keys-check input::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #8c8c8c;
+    position: absolute;
+    top: 50%;
+    left: 0.3rem;
+    border-radius: inherit;
+}
+
+.keys-check input:checked::before{
+    left: 2.1rem;
+    background-color: #8c8c8c;
+}
+
+.keys-check input::after{
+
+}
